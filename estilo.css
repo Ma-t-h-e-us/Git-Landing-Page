@@ -239,3 +239,74 @@ footer span {
     line-height: 25px;
     color: #fff; 
 }
+
+
+@media (max-width: 420px) {
+    .container {
+        width: 80vw;
+    }
+    .banner_container {
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
+    .imagem_de_fundo {
+        width: auto;
+        height: 100%;
+    }
+    .conteúdo_banner {
+        left: 0;
+        align-items: center;
+        top: 155px;
+        }
+
+    .conteúdo_banner h1 {
+        width: 90%;
+        font-size: 60px;
+        text-align: center;
+        height: 150px;
+    }
+    hr {
+        width: 90%;
+        margin: 30px 0;
+
+    }
+    .conteúdo_banner span {
+        font-size: 35px;
+
+    }
+    .conteúdo_banner img {
+        margin-top: 20px;
+        width: 45px;
+    }
+    .container_sobre_projetos{
+        height: auto;
+    }
+    .pessoas_idealizando_projetos {
+        width: 80vw;
+    }
+    .container_sobre {
+        flex-direction: column;
+    }
+    .conteúdo_sobre_projetos h2 {
+        font-size: 3.4em; 
+        margin: 50px 0;
+    }
+    .container_participantes {
+        padding-bottom: 50px;
+    }
+    .container_participantes span {
+        margin-top: 50px;
+    }
+    .container_participantes h3 {
+        width: auto;
+        height: auto;
+        font-size: 37px;
+        margin: 50px 0;
+    }
+    .container_participantes p {
+        width: auto;
+        height: auto;
+        text-align: justify;
+    }
+}
